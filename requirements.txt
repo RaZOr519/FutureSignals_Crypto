@@ -1,5 +1,6 @@
 streamlit
 pandas
-ta
 requests
 pandas-ta
+plotly
+setuptools
