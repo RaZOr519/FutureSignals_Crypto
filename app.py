@@ -16,7 +16,7 @@ try:
     DISCORD_WEBHOOK_URL = st.secrets["discord"]["webhook_url"]
 except (FileNotFoundError, KeyError):
     st.sidebar.warning("Discord Webhook URL not found in secrets. Notifications will be disabled.", icon="⚠️")
-    DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1396989909943718040/XjYIaPBWOSlsYCsA31fCwK7iSOayFpALGlrXA8b1wpYI1O78JfN3UnsUwSDoz94v5cIZ" # Placeholder
+    DISCORD_WEBHOOK_URL = "" # Placeholder
 
 # --- App Constants ---
 REFRESH_INTERVAL = 600  # 5 minutes
